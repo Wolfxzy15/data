@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv(r"C:\Users\Rej\Desktop\job market analysis\data job posts.csv")
+df = pd.read_csv("data job posts.csv")
 
 
 st.set_page_config(page_title="Job Market Dashboard", layout="wide")
